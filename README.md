@@ -66,7 +66,7 @@ SET RULE(S)
       
  e.g. R = [ rule,rules,<2-char variable punctuation>,(uncommon regular pattern such as 'etc...'), timeinterval ] 
  
- R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', '@domain.com', 4 ]
+ R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', 'jessica@domain.com', 4 ]
  
  
 IN THIS EXAMPLE THE FOLLOWING OCCURED:
