@@ -1,8 +1,9 @@
 # Project: ShatteredGlass
 Shattered Glass: Generative Evolutionary Swarm Agents.
 
-ShatteredGlass provides the capability to discreetly add vectors of multivariate differential equations into a single message representing each pane of glass (dimension), inside of the message contains a randomly distributed set of rules, and/or actions representing features of Discrete Mathematics and predicate order calculus based upon a provided set of parameters followed by a matrix transpose function, "refractor". 
+ShatteredGlass provides the capability to discreetly add vectors of multivariate differential equations into a single message representing each pane of glass (dimension), inside of the message contains a randomly distributed set of rules, unique identifiers, actions, and commands incorporating the features of discrete mathematics and predicate order calculus based upon a provided set of parameters followed by a matrix transpose function, "refractor". 
 
+Illustration:
 
 Imagine you have a pane of glass in your hands and then deliberately shatter it on the ground. The pane of glass now becomes many tiny pieces of glass that even though you may know for certain you have ALL of the pieces, it is impossible to place the pieces back together without using highly advanced techniques, which is undoubtedly an impossible activity once I pick up the pieces and throw them in all directions. this is in effect what we are discussing when it comes to the non-linear asynchronous process of message passing from host to host until it reaches its intend destination.  
 
@@ -44,35 +45,41 @@ EMAIL EXAMPLE:
 
 INITIAL EMAIL 
 
-  SET RULE(S);
-  
+
+
+SET RULE(S)
     WRITE A RANDOM MESSAGE SUCH AS THE FOLLOWING:
-    
       From: "jane@doe.com"
-      
       To: "joe@doe.com"
-      
       Subject: "Hey there!"
-      
       "Please remember to take Charlie on a walk, but not Mittens because she is a cat and taking a cat on a walk is strange. Overall, my day went well but the boss said I should follow the rules more carefully, so I did!. Other than that I went to the store and bought some cosmetics, food, etc... it only took me 4 hours waiting in line! Also, before I forget Please send Jessica an email reminding her to come to the party this Saturday."
+   
+   ORDER CAN BE RELATIONAL, SYNTACTICAL, OR ARBITRARY.
+      
+   FIRST, YOU NEED TO KNOW THERE ARE NUIANCES IN THE MESSAGE THAT TOLD THE RECEIVING SERVER SEVERAL KEY FACTS. 
+   HERE IS WHAT YOU NEED TO KNOW: LET "R" = SET OF RULES.
+      
+   e.g. R = [ rule,rules,<2-char variable punctuation>,(uncommon regular pattern such as 'etc...'), timeinterval ] 
+   R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', '@domain.com', 4 ]
+      
+IN THIS EXAMPLE THE FOLLOWING OCCURED:
+
+
+ 1. WE MENTIONED THAT WE NEED TO "remember" TO TAKE "charlie" ON A "walk" => CHARLIE IS A DOG. "remember" MEANS TO STORE TO DISK A SPECIFIC RULE AND THE VERB "walk" was assigned to Charlie with no other parameters in this case. IF THE SERVER CONTAINED A HARDCODED GRAPH ASSOCIATION BETWEEN DOG ==> WALK AS CODE FOR MAKING A GET REQUEST TO AN HTTPS WEBSITE. THE MESSENGER MAY BE ASKING FOR THE DATA OF A STANDARD GET REQUEST OVER 443 HTTPS.
+ 
+ 
+ 2. WE SAID "not" TO TAKE "Mittens" ON A WALK (INFERRED). THIS REQUIRES AN INFERENCE MACHINE TO PUT THE PIECES TOGETHER, IF CHARLIE IS A DOG THAT NEEDS A WALK BUT NOT THE CAT MITTENS, THEN THE STANDARD FORM AS A DIFFERENTIAL FUNCTION WOULD ASSOCIATE A COMMAND WITH AN ACT BUT WITH LIMITING OR NEGATING FACTORS IN ORDER TO CREATE A SMALLER SUBSET OF THE DATA OR POSSIBLE COMMANDS. EFFECTIVELY, THIS COULD BE SOMETHING AKIN TO AN UPDATED query such that "charlie" = "SELECT * WHERE <DOG_CHARLIE> GROUPBY <CAT_MITTENS>;"
+ 
+ 
+ THE BOOLEAN LOGIC HERE IS IN EFFECT TELLING THE SERVER TO RUN COMMAND ASSOCIATED WITH SPECIFIC DISAGGREGATED NUISANCES.
+ 
+ 
+ FURTHERMORE, WE TOLD THE SERVER THAT WE INTEND TO WRITE A TEMPRORARY RULE AND THAT THE RULE WAS "." AND THAT THERE IS GOING TO BE 
+ ANOTHER MESSAGE FOLLOWING THIS ONE BECAUSE WE PROVIDED THE "etc...". 
+ 
+ 
+ FINALLY, SINCE WE ADDED A TIME INTERVAL WE EXPANDED THE DEFAULT WAIT PERIOD TO 4 HOURS OR ELSE FORGET THIS RULE.
       
       
-      ORDER CAN BE RELATIONAL, SYNTACTICAL, OR ARBITRARY.
-       
-       
-      FIRST, YOU NEED TO KNOW THERE ARE NUIANCES IN THE MESSAGE THAT TOLD THE RECEIVING SERVER SEVERAL KEY FACTS. 
-      HERE IS WHAT YOU NEED TO KNOW: LET "R" = SET OF RULES.
-      
-      
-      e.g. R = [ rule,rules,<2-char variable punctuation>,(uncommon regular pattern such as 'etc...'), timeinterval ] 
-      R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', '@domain.com', 4 ]
-      
-      
-      IN THIS EXAMPLE THE FOLLOWING OCCURED:
-      1. WE MENTIONED THAT WE NEED TO "remember" TO TAKE "charlie" ON A "walk" => CHARLIE IS A DOG. "remember" MEANS TO STORE TO DISK A SPECIFIC RULE AND THE VERB "walk" was assigned to Charlie with no other parameters in this case. IF THE SERVER CONTAINED A HARDCODED GRAPH ASSOCIATION BETWEEN DOG ==> WALK AS CODE FOR MAKING A GET REQUEST TO AN HTTPS WEBSITE. THE MESSENGER MAY BE ASKING FOR THE DATA OF A STANDARD GET REQUEST OVER 443 HTTPS.
-      2. WE SAID "not" TO TAKE "Mittens" ON A WALK (INFERRED). THIS REQUIRES AN INFERENCE MACHINE TO PUT THE PIECES TOGETHER, IF CHARLIE IS A DOG THAT NEEDS A WALK BUT NOT THE CAT MITTENS, THEN THE STANDARD FORM AS A DIFFERENTIAL FUNCTION WOULD ASSOCIATE A COMMAND WITH AN ACT BUT WITH LIMITING OR NEGATING FACTORS IN ORDER TO CREATE A SMALLER SUBSET OF THE DATA OR POSSIBLE COMMANDS. EFFECTIVELY, THIS COULD BE SOMETHING AKIN TO AN UPDATED query such that "charlie" = "SELECT * WHERE <DOG_CHARLIE> GROUPBY <CAT_MITTENS>;"
-      THE BOOLEAN LOGIC HERE IS IN EFFECT TELLING THE SERVER TO RUN COMMAND ASSOCIATED WITH SPECIFIC DISAGGREGATED NUISANCES.
-      FURTHERMORE, WE TOLD THE SERVER THAT WE INTEND TO WRITE A TEMPRORARY RULE AND THAT THE RULE WAS "." AND THAT THERE IS GOING TO BE ANOTHER MESSAGE FOLLOWING THIS ONE BECAUSE WE PROVIDED THE "etc...". FINALLY, SINCE WE ADDED A TIME INTERVAL WE EXPANDED THE DEFAULT WAIT PERIOD TO 4 HOURS OR ELSE FORGET THIS RULE.
-      
-      ADDITIONAL CONSIDERATIONS:
+   ADDITIONAL CONSIDERATIONS:
         *CONVERT TO PLAINTEXT FROM 2048-BIT RSA ENCRYPTION TO AVOID SUSPECION AND DETECTION.
