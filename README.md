@@ -53,6 +53,7 @@ SET RULE(S)
   From: "jane@doe.com"
   To: "joe@doe.com"
   Subject: "Hey there!"
+  
   "Please remember to take Charlie on a walk, but not Mittens because she is a cat and taking a cat on a walk is strange. Overall, my day went well but the boss said I should follow the rules more carefully, so I did!. Other than that I went to the store and bought some cosmetics, food, etc... it only took me 4 hours waiting in line! Also, before I forget Please send Jessica an email reminding her to come to the party this Saturday."
    
  
@@ -84,8 +85,9 @@ IN THIS EXAMPLE THE FOLLOWING OCCURED:
  ANOTHER MESSAGE FOLLOWING THIS ONE BECAUSE WE PROVIDED THE "etc...". 
  
  
- FINALLY, SINCE WE ADDED A TIME INTERVAL WE EXPANDED THE DEFAULT WAIT PERIOD TO 4 HOURS OR ELSE FORGET THIS RULE.
+ SINCE WE ADDED A TIME INTERVAL WE EXPANDED THE DEFAULT WAIT PERIOD TO 4 HOURS OR ELSE FORGET THIS RULE.
       
-      
+ FINALLY, WE SAID TO "send" A MESSAGE TO "Jessica", NOW THIS IMPLIES THAT "Jessica" MUST BE A DOMAIN ASSIGNED FROM AN EARLIER MESSAGE OR THAT IT WILL BE PROVIDED LATER AS IS THE CASE IN THIS MESSAGE WITH THE "etc..." WHERE I DECIDED TO SEPERATE THE PRIMARY MESSAGE INTO 2 SUBCOMPONENTS TO THROW OFF ANY ALGORITHMS TRYING TO DETECT PATTERNS IN THE CONTENT OF SINGLE EMAIL BODY, AS NO AMOUNT OF SOPHISTICATION WILL BE ABLE TO KNOW WHAT "Jessica" IS CODE FOR BECAUSE I HAVE NOT EVEN WRITTEN IT DOWN AT THIS POINT!      
+ 
    ADDITIONAL CONSIDERATIONS:
         *CONVERT TO PLAINTEXT FROM 2048-BIT RSA ENCRYPTION TO AVOID SUSPECION AND DETECTION.
