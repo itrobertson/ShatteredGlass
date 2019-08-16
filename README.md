@@ -49,19 +49,25 @@ INITIAL EMAIL
 
 SET RULE(S)
     WRITE A RANDOM MESSAGE SUCH AS THE FOLLOWING:
-      From: "jane@doe.com"
-      To: "joe@doe.com"
-      Subject: "Hey there!"
-      "Please remember to take Charlie on a walk, but not Mittens because she is a cat and taking a cat on a walk is strange. Overall, my day went well but the boss said I should follow the rules more carefully, so I did!. Other than that I went to the store and bought some cosmetics, food, etc... it only took me 4 hours waiting in line! Also, before I forget Please send Jessica an email reminding her to come to the party this Saturday."
+    
+  From: "jane@doe.com"
+  To: "joe@doe.com"
+  Subject: "Hey there!"
+  "Please remember to take Charlie on a walk, but not Mittens because she is a cat and taking a cat on a walk is strange. Overall, my day went well but the boss said I should follow the rules more carefully, so I did!. Other than that I went to the store and bought some cosmetics, food, etc... it only took me 4 hours waiting in line! Also, before I forget Please send Jessica an email reminding her to come to the party this Saturday."
    
-   ORDER CAN BE RELATIONAL, SYNTACTICAL, OR ARBITRARY.
+ 
+ ORDER CAN BE RELATIONAL, SYNTACTICAL, OR ARBITRARY.
       
-   FIRST, YOU NEED TO KNOW THERE ARE NUIANCES IN THE MESSAGE THAT TOLD THE RECEIVING SERVER SEVERAL KEY FACTS. 
-   HERE IS WHAT YOU NEED TO KNOW: LET "R" = SET OF RULES.
+ 
+ FIRST, YOU NEED TO KNOW THERE ARE NUIANCES IN THE MESSAGE THAT TOLD THE RECEIVING SERVER SEVERAL KEY FACTS. 
+ 
+ HERE IS WHAT YOU NEED TO KNOW: LET "R" = SET OF RULES.
       
-   e.g. R = [ rule,rules,<2-char variable punctuation>,(uncommon regular pattern such as 'etc...'), timeinterval ] 
-   R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', '@domain.com', 4 ]
-      
+ e.g. R = [ rule,rules,<2-char variable punctuation>,(uncommon regular pattern such as 'etc...'), timeinterval ] 
+ 
+ R = [ 'remember', 'Charlie walk', 'not Mittens', 'rules', '.', 'etc...', '@domain.com', 4 ]
+ 
+ 
 IN THIS EXAMPLE THE FOLLOWING OCCURED:
 
 
