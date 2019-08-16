@@ -4,7 +4,7 @@ Project Shattered Glass: Generative Evolutionary Swarm Agents.
 ShatteredGlass provides the capability to discreetly add multivariate differential equations into a single message such as each "pane" of glass AKA layer, represents a set of rules, and/or actions in Discrete Mathematics based upon a provided set of parameters in a matrix transpose. 
 
 
-Imagine you have a pane of glass in your hands and then deliberately shatter it on the ground. The plane of glass now becomes many tiny pieces of glass that even though you may know for certain you have ALL of the pieces, it is impossible to place the pieces back together without using highly advanced techniques, which is undoubtedly a very time expensive if not impossible activity.  
+Imagine you have a pane of glass in your hands and then deliberately shatter it on the ground. The pane of glass now becomes many tiny pieces of glass that even though you may know for certain you have ALL of the pieces, it is impossible to place the pieces back together without using highly advanced techniques, which is undoubtedly an impossible activity once I pick up the pieces and throw them in all directions. this is in effect what we are discussing when it comes to the non-linear asynchronous process of message passing from host to host until it reaches its intend destination.  
 
 
 Unlike a Jigsaw puzzle where there are obvious differences and can easily be placed together a Shattered Pane of Glass cannot. Instead the server can logically recouple the missing parts using localized embedded knowledge and inference machines using differential equations in order to make sense of the message and state.
